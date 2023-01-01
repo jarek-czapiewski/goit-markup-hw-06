@@ -730,6 +730,7 @@ margin-left: -205px;
   padding-top: 60px;
 }
 
+
 .button-form{
   display: flex;
   text-align: center;
@@ -751,3 +752,53 @@ margin-left: -205px;
 .newsletter-icon{
  fill: var(--white-color);
 }
+
+
+.first-name{
+  position: absolute;
+  display: flex;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+margin-bottom: 4px;
+padding: 30px 40px 10px 40px;
+width: 448px;
+  height: 40px;
+
+}
+
+
+
+
+.personal-data-form{
+ display: flex;
+  justify-content: center;
+ color: var(--main-gray-color);
+ font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  margin-top: 18px;
+}
+
+.form-title{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  padding: 40px 40px 12px 40px;
+  text-align: center;
+}
+
+
+.input-icons{
+ position: absolute;
+ top: 20px;
+ left: 12px;
+ transform: translateY(-50%);
+}
+
+.input-label{
+  width: 448px;
+  height: 40px;
+}
+
