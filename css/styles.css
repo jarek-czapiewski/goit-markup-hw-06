@@ -669,7 +669,7 @@ body {
   transform: scale(0);
 }
 
-.modal button {
+.button-modal-close {
   width: 30px;
   height: 30px;
   color: var(--black-color);
@@ -813,6 +813,7 @@ color: var(--main-gray-color);
 
 .input-label{
   display: flex;
+  outline: none;
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -830,6 +831,7 @@ color: var(--main-gray-color);
 .personal-data-andotations{
   border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
+outline: none;
 width: 448px;
 height: 120px;
 padding: 12px 16px;
@@ -840,13 +842,38 @@ letter-spacing: 0.01em;
 
 .personal-data-checkbox{
   display: flex;
- margin-left: 15px;
-  margin-top: 20px;
-  fill:#212121;
+  margin-top: 18px;
 }
 
 .checkbox-text{
   margin-left: 8px;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-gray-color);
+  letter-spacing: 0.03em;
 }
 
-.chceckbox> 
+.checkbox-input {
+  opacity: 0;
+}
+
+.checkbox-icon{
+  color: #212121;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+margin-top: 4px;
+}
+
+.checkbox-text > span{
+  text-decoration: underline;
+  color: var(--brand-color)
+}
+
+.checkbox-button{
+ background: var(--brand-color);
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
