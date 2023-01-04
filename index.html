@@ -454,16 +454,37 @@
           <use href="./images/icons.svg#icon-modal-close"></use>
         </svg>
       </button>
-      <div class="personal-data">
+        <form class="personal-data-form">
         <p class="form-title">Zostaw swoje dane w formularzu poniżej</p>
-      <form class="personal-data-form">
-      <label class="first-name" for="name">Imie
+        <div class="personal-data">
+      <label class="personal-data-label" for="name">Imie</label>
+        <input name="name" type="text" id="name" class="input-label"/>
         <svg class="input-icons" width="18px" height="18px"> 
           <use href="./images/icons.svg#icon-person-black"></use>
         </svg>
-      </label>
-      <input name="name" type="text" id="name" class="input-label"/>
-      </form>
+        </div>
+        <div class="personal-data">
+        <label class="personal-data-label personal-data-phone" for="name">Telefon</label>
+        <input name="name" type="text" id="name" class="input-label"/>
+        <svg class="input-icons" width="18px" height="18px"> 
+          <use href="./images/icons.svg#icon-phone-black"></use>
+        </svg>
+      </div>
+      <div class="personal-data">
+        <label class="personal-data-label personal-data-email" for="name">Email</label>
+        <input name="name" type="text" id="name" class="input-label"/>
+        <svg class="input-icons" width="18px" height="18px"> 
+          <use href="./images/icons.svg#icon-email-black"></use>
+        </svg>
+      </div>
+      <div class="checkbox-form">
+      <label class="personal-data-comment" for="comments">Komentarz</label>
+      <textarea class="personal-data-andotations" name="comments" type="text" id="comments"
+      placeholder="Wprowadź tekst"></textarea>
+      <label class="personal-data-checkbox">
+        <input type="checkbox">
+        <p class="checkbox-text">Oświadczam iż akceptuję Regulamin i Politykę Prywatności.</p>
+        </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
