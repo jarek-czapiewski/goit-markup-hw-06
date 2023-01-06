@@ -458,39 +458,41 @@
         <div class="personal-data">
       <label class="personal-data-label" for="name">Imie</label>
         <input name="name" type="text" id="name" class="input-label"/>
-        <svg class="input-icons" width="18px" height="18px"> 
+        <svg class="input-icons"> 
           <use href="./images/icons.svg#icon-person-black"></use>
         </svg>
         </div>
         <div class="personal-data">
-        <label class="personal-data-label personal-data-phone" for="name">Telefon</label>
-        <input name="name" type="text" id="name" class="input-label"/>
-        <svg class="input-icons" width="18px" height="18px"> 
+        <label class="personal-data-label personal-data-phone" for="phone">Telefon</label>
+        <input name="name" type="tel" id="phone" class="input-label"/>
+        <svg class="input-icons"> 
           <use href="./images/icons.svg#icon-phone-black"></use>
         </svg>
       </div>
       <div class="personal-data">
-        <label class="personal-data-label personal-data-email" for="name">Email</label>
-        <input name="name" type="text" id="name" class="input-label"/>
-        <svg class="input-icons" width="18px" height="18px"> 
+        <label class="personal-data-label personal-data-email" for="email">Email</label>
+        <input name="name" type="email" id="email" class="input-label"/>
+        <svg class="input-icons"> 
           <use href="./images/icons.svg#icon-email-black"></use>
         </svg>
       </div>
-      <div class="checkbox-form">
+      
       <label class="personal-data-comment" for="comments">Komentarz</label>
       <textarea class="personal-data-andotations" name="comments" type="text" id="comments"
       placeholder="Wprowadź tekst"></textarea>
-      <label class="personal-data-checkbox"></label>
-        <input type="checkbox" class="checkbox-input">
-        <svg class="checkbox-icon" width="16px" height="15px">
+      <label class="personal-data-checkbox" for="checkbox">
+        <input type="checkbox" class="checkbox-input" name="checkbox" id="checkbox">
+        <svg class="checkbox-empty" width="16px" height="15px">
           <use href="./images/icons.svg#icon-Vector"></use>
         </svg>
-        <svg class="checkbox-icon-active" width="16px" height="15px">
+        <span class="checkbox-icon-active">
+        <svg class="checkbox-icon" width="16px" height="15px">
         <use href="./images/icons.svg#icon-check"></use>  
         </svg>
+      </span>
         <p class="checkbox-text">Oświadczam iż akceptuję <a class= "agreement-link" href="#"> Regulamin</a> i <a class= "agreement-link" href="#" > Politykę Prywatności. </a></p>
+      </label>
         <button type="submit" class="checkbox-button">Wyślij</button>
-      </div>
         </form>
         </div>
     </div>
