@@ -723,6 +723,7 @@ margin-left: -205px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
   background: var(--background-gray-color);
+  outline: none;
 }
 
 .newsletter-email-box::placeholder{
@@ -838,7 +839,7 @@ color: var(--main-gray-color);
   color:var(--main-gray-color);
   font-size: 12px;
   line-height: 1.17;
-  margin-bottom: 4px;
+  margin-bottom: 0px;
 }
 
 .personal-data-andotations{
@@ -919,12 +920,12 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.checkbox-icon-active{
+.checkbox-icon{
   border: 2px solid var(--main-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 border-radius: 2px;
-margin-top: 4px;
+margin-top: 7px;
 position: absolute;
 left: 52px;
 width: 16px;
@@ -934,16 +935,14 @@ justify-content: center;
 align-items: center;
 }
 
-.checkbox-input:checked + .checkbox-icon-active{
+.checkbox-input:checked + .checkbox-icon{
   background: var(--brand-color);
   outline: none;
   border: none;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 
-.checkbox-icon{
+.checkbox-icon-active{
   fill: var(--white-color);
 }
 
